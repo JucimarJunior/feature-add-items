@@ -11,6 +11,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        featAddRemoveItems()
+    }
+
+    private fun featAddRemoveItems() {
+
         var txtQuantity = 0;
 
         addItem.setOnClickListener {
@@ -34,4 +39,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
 
